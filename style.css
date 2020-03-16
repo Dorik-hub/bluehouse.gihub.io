@@ -1,0 +1,349 @@
+body{
+	padding: 0;
+	box-sizing: border-box;
+	margin:0;
+	font-family: sans-serif;
+	background-image: url("Shape 15 copy 2.png");
+background-position:  50% 100%;
+background-size: contain;
+background-repeat: no-repeat;
+}
+.menu{
+	display:flex;
+	flex-wrap: nowrap;
+	padding-left: 8em;
+	padding-right: 8em;
+	color:white;
+	
+
+}
+.emblem{
+	width:75px;
+	height: 75px;
+	display: flex;
+	flex: 1 0 auto;
+    margin:1em;
+	align-items: center;
+	background-image: url("Vector Smart Object.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-x:30%; 
+}
+.menu ul{
+	
+	display: flex;
+	justify-content: flex-end;
+}
+.menu li{
+	display: flex;
+	justify-content: flex-end;
+	margin:1em;
+	margin-left: 2em;
+	color:white;
+}
+.menu li a{
+	text-transform: uppercase;
+	color:white;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+.welcome-page{
+	width: 100%;
+	height:100vh;
+	background-image: url("illustration.png");
+	background-size: cover;
+}
+.about{
+	width:30em;
+	margin-left: 21em;
+	margin-top:6em;
+	color: white;
+}
+.about h1{
+	font-size: 3em;
+	
+}
+.about p{
+	width:21em;
+	font-size: 1.1em;
+	 line-height:1.5em;
+}
+.about .button{
+	margin-top: 2em;
+	font-size: 1.3em;
+	color: black;
+	padding:0.5em;
+	border:none;
+	border-radius: 15px 0px 15px 15px;
+}
+.row{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding:0 8em;
+	margin-top:;
+}
+.row-block{
+	padding:2em;
+	border: 1px solid grey;
+	width:calc(100%/3 - 4em);
+	margin:2em;
+	height:25em;
+	border-radius: 15px 0px 15px 15px;
+	background-color: white;
+}
+.row-block-header{
+	font-size: 9em;
+	text-align:right;
+	color:#e1e5e7;
+	font-weight: bold;
+
+}
+.block1{
+	background-image: url("Vector Smart Object8.png");
+	background-size: 30% 60%;
+	background-repeat: no-repeat;
+	background-position-x:0; 
+	background-position-y:50%; 
+
+}
+.block2{
+	background-image: url("Vector Smart Object5.png");
+	background-size: 30% 60%;
+	background-repeat: no-repeat;
+	background-position-x:0; 
+	background-position-y:50%; 
+
+}
+.block3{
+	background-image: url("Vector Smart Object4.png");
+	background-size: 45% 50%;
+	background-repeat: no-repeat;
+	background-position-x:0; 
+	background-position-y:50%; 
+
+}
+.block4{
+	background-image: url("Vector Smart Object3.png");
+	background-size: 30% 60%;
+	background-repeat: no-repeat;
+	background-position-x:0; 
+	background-position-y:50%; 
+
+}
+.row-block h3{
+	font-size: 1.5em;
+}
+.row-block p{
+	font-size: 1.1em;
+	color:#7c7f81;
+}
+.container-button-why-arda{
+	margin-top: 2em;
+	display: flex;
+	justify-content: center;
+padding-bottom:50em;
+
+}
+
+.button-why-arda{
+	font-size: 1.3em;
+	color: white;
+	border:none;
+	border-radius: 15px 0px 15px 15px;
+	padding:1em;
+	background-color: #1892ea;
+}
+ .why-arda{
+
+	background-image: url("dan-gold-220226-unsplash.png");
+background-position: 50% 100%;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.why-arda h2{
+	margin: 0 auto;
+	font-size: 2em;
+	text-align: center;
+	width:13em;
+}
+.clients-comments{
+padding-right: 5em;
+padding-left: 5em;
+padding-bottom: 10em;
+
+background-image: url("Shape 19.png");
+	background-position:  15% 100%;
+	background-repeat: no-repeat;
+}
+.clients-comments-container{
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+.clients-comments-container-block{
+	width: calc(100%/4);
+	margin:3em;
+	border: 1px solid #e1dae5;
+	padding:2em;
+	padding-top: 4em;
+	border-radius: 15px 0px 15px 15px;
+	background-color: white;
+	box-shadow: 0 0.5em 1em rgba(0,0,0,0.2) ;
+
+}
+  .comments1{
+  	position: relative;
+	height:15em;
+}
+.comments2{
+	position: relative;
+	height:17em;
+}
+.comments-text{
+	font-size: 1.1em;
+	color:#7c7f81;
+}
+.name{
+	margin-top: 1.5em;
+	font-size: 1.3em;
+	color:#2fc9ef;
+	font-weight: bold;
+	
+}
+.city-comments{
+	font-size: 1.2em;
+	color:black;
+	font-weight: bold;
+}
+.clients-comments h2{
+	text-align: center;
+}
+.comments-photo{
+	position: absolute;
+	width:5em;
+	height:5em;
+	background-color: black;
+	border-radius: 50%;
+	top:-2em;
+	box-shadow: 0 1em 1em rgba(0,0,0,0.2) ;
+}
+.photo2{
+	background-image: url(tamarcus-brown-266128-unsplash.png);
+	background-position: 50% 25%;
+
+}
+.photo1{
+	background-image: url("Ellipse 3.png");
+	background-position: 50% 25%;
+
+}
+.form-section{
+	width:65vw;
+	
+	padding:3em 3em 4em 3em;
+	margin:0 auto;
+	border:1px solid transparent;
+	background-image: url("Rectangle 2 copy 3.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 15px 0px 15px 15px;
+	color: white;
+	margin-top: 5em;
+	margin-bottom: 5em;
+	box-shadow: 0 1em 1em rgba(60,125,226,0.2)
+}
+.header-form{
+	width:30%;
+}
+.header-form h3{
+	font-size: 2em;
+}
+.header-form p{
+color:#c5c9c9;	
+}
+.form-container-row{
+	display:flex;
+	flex-direction:row;
+}
+label{
+	font-size: 1.1em;
+	text-transform: uppercase;
+	margin-bottom: 0.5em;
+	margin-top: 1.5em;
+	display: block;
+}
+.form-container-column input{
+	width: 20em;
+	height: 3em;
+	border-radius: 10px 0px 10px 10px;
+	border:none;
+}
+.form-container-column{
+	padding-right: 5em;
+	display: flex;
+	flex-direction: column;
+}
+.form-and-address{
+	display: flex;
+	flex-direction: row;
+}
+.form-address{
+	margin-left:3em;
+	align-self: flex-end;
+}
+div>textarea{
+	width: 20em;
+	height: 10.3em;
+	border-radius: 10px 0px 10px 10px;
+	border:none;
+}
+.submit-container{
+	display:flex;
+	justify-content: flex-end;
+	margin-top: 1em;
+}
+.submit-container>input{
+	padding:1em 3em 1em 3em;
+	border-radius: 10px 0px 10px 10px;
+	background-color: #2fc9ef;
+	border:none;
+	color: white;
+}
+span{
+	color: #2fc9ef;
+}
+.footer{
+	color:white;
+	margin-top: 8em;
+padding-left: 12em;
+padding-right: 8em;
+
+}
+footer > .first-footer{
+	display: flex;
+}
+.footer-about{
+	flex-basis:25%; 
+	margin-right: 20em;
+}
+.footer-menu{
+	display: flex;
+	flex-direction:column;
+	flex-basis:12%;
+}
+.footer-second{
+	margin-top:5em;
+	border-top:1px solid #68a3ea;
+}
+.footer-menu a{
+	text-decoration: none;
+	color:white;
+	margin-top:0.5em;
+}
+.footer  h4{
+	text-transform: uppercase;
+}
